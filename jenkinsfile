@@ -8,6 +8,7 @@ pipeline {
         sh '''
         cd static
         zip -r ../frontend.zip *
+        '''
       }
     }
   }
