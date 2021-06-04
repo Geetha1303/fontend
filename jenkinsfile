@@ -6,8 +6,10 @@ pipeline {
     stage {'prepare Artifacts'} {
       steps {
         sh '''
+        echo iam here
         cd static
         zip -r ../frontend.zip *
+        echo i completed file path
         '''
       }
     }
