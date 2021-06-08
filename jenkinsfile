@@ -3,7 +3,7 @@ pipeline {
 
   stages {
 
-    stage {'prepare Artifacts'} {
+    stage('prepare Artifacts') {
       steps {
         sh '''
           cd static
