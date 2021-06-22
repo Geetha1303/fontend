@@ -1,4 +1,4 @@
-@Library('roboshop') _
+@Library('roboshop@main')
 roboshop {
   COMPONENT          :'frontend',
   PROJECT_NAME       :"Roboshop",
